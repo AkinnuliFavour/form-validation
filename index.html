@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <form
+        name="form"
+        class="form"
+        enctype="multipart/form-data"
+        onsubmit="return false"
+      >
+        <h1 class="header">Register With US</h1>
+
+        <div class="username-container">
+          <label for="username">Username</label>
+          <input type="text" class="username" placeholder="Enter username" />
+        </div>
+
+        <div class="email-container">
+          <label for="email">Email</label>
+          <input type="email" class="email" placeholder="Enter email" />
+        </div>
+
+        <div class="password-container">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="password"
+            placeholder="Enter password"
+          />
+        </div>
+
+        <div class="confirm-password-container">
+          <label for="confirm_password">Confirm Password</label>
+          <input
+            type="password"
+            class="password_confirmation"
+            placeholder="Enter password again"
+          />
+        </div>
+
+        <div class="submit-container">
+          <input type="submit" class="submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
